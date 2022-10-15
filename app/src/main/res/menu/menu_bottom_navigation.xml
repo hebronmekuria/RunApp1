@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/run"
+        android:enabled="true"
+        android:icon="@drawable/run_circle_24"
+        android:title="Running Activities"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/metrics"
+        android:enabled="true"
+        android:icon="@drawable/metrics_24"
+        android:title="Metrics"
+        app:showAsAction="ifRoom" />
+
+</menu>

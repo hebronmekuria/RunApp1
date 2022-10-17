@@ -41,14 +41,11 @@ class EnterRun: AppCompatActivity(){
 
             val new_activity = Run(activity,distance,duration,experience)
 
-//            lifecycleScope.launch(IO) {
-//                (application as RunApplication).db.runDao().insert(
-//                    RunEntity(new_activity.activity,new_activity.distance,new_activity.duration, new_activity.experience)
-//                )
-//            }
-            val data= Intent()
-            data.putExtra("Results",new_activity)
-            setResult(RESULT_OK,data)
+            lifecycleScope.launch(IO) {
+                (application as RunApplication).db.runDao().insert(
+                    RunEntity(new_activity.activity,new_activity.distance,new_activity.duration, new_activity.experience)
+                )
+            }
             finish()
         }
     }

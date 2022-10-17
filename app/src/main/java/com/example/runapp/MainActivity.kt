@@ -27,28 +27,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       // var new_activity = Run("hi",5.5.toFloat(),5.5.toFloat(),5)
-
-        var editActivityResultLauncher: ActivityResultLauncher<Intent> = registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
-        ) { result ->
-            // If the user comes back to this activity from EditActivity
-            // with no error or cancellation
-            if (result.resultCode == Activity.RESULT_OK) {
-                val data = result.data
-                // Get the data passed from EditActivity
-                if (data != null) {
-                    val new_activity = data?.getSerializableExtra("Results") as Run
-                    lifecycleScope.launch(Dispatchers.IO) {
-                        (application as RunApplication).db.runDao().insert(
-                            RunEntity(new_activity.activity,new_activity.distance,new_activity.duration, new_activity.experience)
-                        )
-                    }
-
-                }
-            }
-        }
-
 
         addButton = findViewById(R.id.button)
 
@@ -59,10 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         addButton.setOnClickListener{
             val intent = Intent(this, EnterRun::class.java)
-            //startActivity(intent)
-            editActivityResultLauncher.launch(intent)
-           // bottomNavigationView.selectedItemId = R.id.run
-
+            startActivity(intent)
         }
 
         bottomNavigationView.setOnItemSelectedListener { item ->

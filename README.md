@@ -41,7 +41,8 @@ GIF created with LICEcap
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ##2 Fragments
-Here are the change of fragments in the Main Activity
+
+Here is the changing between fragments code in the Main Activity
 ![image](https://user-images.githubusercontent.com/98725619/196522640-36de59c3-96b5-4ffc-9f19-0095cfa37bf7.png)
 
 Here is the main activity xml file

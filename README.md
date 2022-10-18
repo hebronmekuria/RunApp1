@@ -40,6 +40,21 @@ GIF created with LICEcap
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+##2 Fragments
+Here are the change of fragments in the Main Activity
+![image](https://user-images.githubusercontent.com/98725619/196522640-36de59c3-96b5-4ffc-9f19-0095cfa37bf7.png)
+
+Here is the main activity xml file
+![image](https://user-images.githubusercontent.com/98725619/196522946-6aa28dfb-92ec-4a7b-8ff7-6f79f4afb9cd.png)
+
+Here is the (first) RunFragment
+![image](https://user-images.githubusercontent.com/98725619/196523240-0f279883-0c60-4b81-a0b3-be9989954c2c.png)
+![image](https://user-images.githubusercontent.com/98725619/196523318-d3b84cd5-0194-4ce5-8eb2-fb8b572a24c7.png)
+
+Here is the (second) MetricsFragment
+![image](https://user-images.githubusercontent.com/98725619/196523569-25dcc7a6-f74e-4ca9-8e8d-30051f98c90c.png)
+![image](https://user-images.githubusercontent.com/98725619/196523663-cf26558f-7f17-4585-a6c8-50fa761481c4.png)
+
 ## Notes
 
 A challenging part was writting to and reading from the database using two different activities and two different fragments.

@@ -1,6 +1,6 @@
 # Android Project 6 - *RunApp*
 
-Submitted by: **Albi Kozeli**
+Submitted by: **Hebron Mekuria**
 
 **RunApp** is a health metrics app that allows users to track run activities, its distance, duration
 and rate their experience. The app navigates through fragments and allows the user to view past activities 
@@ -45,11 +45,11 @@ GIF created with LICEcap
 
 ## Notes
 
-A challenging part was writting to and reading from the database using two different activities and two different fragments.
+
 
 ## License
 
-    Copyright [2022] [Albi Kozeli]
+    Copyright [2022] [Hebron Mekuria]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

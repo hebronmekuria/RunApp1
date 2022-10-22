@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/12525/AndroidStudioProjects/RunApp2/app/src/main/res/layout/add_activity.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/12525/AndroidStudioProjects/RunApp2/app/src/main/res/layout/fragment_run.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/12525/AndroidStudioProjects/RunApp2/app/src/main/res/layout/run_item.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/albi_/AndroidStudioProjects/RunApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1165" />
         <entry key="..\:/Users/albi_/AndroidStudioProjects/RunApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
         <entry key="..\:/Users/albi_/AndroidStudioProjects/RunApp/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />

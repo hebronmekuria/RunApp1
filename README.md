@@ -27,13 +27,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![walkthrough](https://user-images.githubusercontent.com/98725619/196291068-f18dbc4d-e987-4e80-9841-985d2d9e6994.gif)
-![walkthrough](https://user-images.githubusercontent.com/98725619/196854982-019ebf9c-c03f-4434-9edd-01a6ee8b1f09.gif)
+<img src='walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LICEcap 
+GIF created with ScreenToGif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

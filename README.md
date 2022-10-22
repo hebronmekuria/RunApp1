@@ -2,10 +2,7 @@
 
 Submitted by: **Hebron Mekuria**
 
-**RunApp** is a health metrics app that allows users to track run activities, its distance, duration
-and rate their experience. The app navigates through fragments and allows the user to view past activities 
-or the activities' metrics. The user can also add run activties through a second EnterRun activity. The data
-is stored in a local SQLite Database.
+**RunApp** is a health metrics app that tracks how much a user ran
 
 Time spent: **10** hours spent in total
 
